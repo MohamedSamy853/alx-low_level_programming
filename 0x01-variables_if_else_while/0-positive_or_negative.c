@@ -4,7 +4,7 @@
 /**
  * main - this is a main function which program started
  *
- * Return : 0 when program is terminated 
+ * Return: 0 when program is terminated 
  */
 int main(void)
 {
@@ -14,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
 	{
-	  printf("%d is positive",n);
+	  printf("%d is positive\n",n);
 	}
 	else if(n<0)
 	{
-	  printf("%d is negative",n);
+	  printf("%d is negative\n",n);
 	}
 	else 
 	{
-	  printf("%d is zero",n);
+	  printf("%d is zero\n",n);
 	}
 	return (0);
 }
