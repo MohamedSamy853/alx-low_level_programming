@@ -8,18 +8,23 @@
 int main(void)
 {
     int n ;
+    int sep;
     for(n=48; n!=58;n++)
     {
         putchar(n);
         if(n!=57)
         {
-            putchar(',');
+            sep =44;
         }
         else
         {
-            putchar('$');
+           sep = 36;
         }
-	putchar(' ');
+        putchar(sep);
+        if (n!=57)
+        {
+            putchar(' ');
+        }
     }
     
     putchar('\n');
