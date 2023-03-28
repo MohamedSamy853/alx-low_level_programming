@@ -8,6 +8,7 @@ void puts_half(char *str)
 {
 	int start;
 	int i;
+	char *s = str;
 	int len = 0;
 
 	while (*str != '\0')
@@ -18,7 +19,7 @@ void puts_half(char *str)
 	start = len / 2;
 	for (i = start ; i < len ; i++)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
