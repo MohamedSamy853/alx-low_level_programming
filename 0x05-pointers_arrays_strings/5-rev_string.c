@@ -4,7 +4,7 @@
  * @s: is a pointer of array of char
  * Return: is is a void number
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	char rev;
 	int counter = 0;
