@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - a function tr reveser string
+ * rev_string - a function tr reveser string
  * @s: is a pointer of array of char
  * Return: is is a void number
  */
