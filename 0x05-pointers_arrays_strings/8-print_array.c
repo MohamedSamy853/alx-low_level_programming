@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  * print_array - is a function that print array
  * @a: is a pointer of array
@@ -11,7 +12,7 @@ void print_array(int *a, int n)
 
 	for (i = 0 ; i < n ; i++)
 	{
-		_putchar(a[i]);
+		printf("%d",a[i]);
 		if (i != n - 1)
 		{
 			_putchar(',');
